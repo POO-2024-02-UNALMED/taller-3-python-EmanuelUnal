@@ -1,9 +1,10 @@
+from televisores.control import Control
 class TV:
     _canal = 1
     _volumen = 1
     _precio = 500
     _numTV = 0
-    _control = 0
+    _control = Control()
 
     def __init__(self,marca,estado):
         self._marca = marca
