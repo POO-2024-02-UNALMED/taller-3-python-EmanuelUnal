@@ -6,10 +6,10 @@ class TV:
     numTV = 0
     _control = Control()
 
-    def __init__(self,marca,estado):
+    def __init__(self, cls,marca,estado):
         self._marca = marca
         self._estado = estado
-        self.numTV += 1
+        cls.numTV += 1
 
     def getMarca(self):
         return self._marca
